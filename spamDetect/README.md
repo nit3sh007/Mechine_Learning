@@ -10,7 +10,7 @@ There is two type of labelled message ham (real )and spam.
 8.Preporcessing start
 9. Feature Extraction
 10, Model Training – In model training I have used these model 
-[
+
                     model      score
 0                     SVC  98.385650
 1           MultinomialNB  98.834081
@@ -22,7 +22,6 @@ There is two type of labelled message ham (real )and spam.
 7       BaggingClassifier  97.219731
 8    ExtraTreesClassifier  98.026906
 
-                       ]
 And that numeric value is its accuracy.
 11. Now I have check the Evaluation Matrices. Where I checked the best score: 0.98 And Best Estimator: MultinomialNB
 12 Created MultinomialNB Classification report.
